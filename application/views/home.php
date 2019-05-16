@@ -39,28 +39,28 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
             <a href="Mobilemoney"><img src="public/img/phone.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Mobilemoney">เติมเงินมือถือ</a></h3>
+            <h3><a href="Mobilemoney">Top up</a></h3>
             <div class="reviews-star float-left">
         
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="100">
             <a href="Fillthegame"><img src="public/img/garena.png" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Fillthegame">เติมเกม</a></h3>
+            <h3><a href="Fillthegame">Game</a></h3>
             <div class="reviews-star float-left">
              
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="200">
             <a href="Movieticket"><img src="public/img/Movie.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Movieticket">ตั๋วภาพยนตร์</a></h3>
+            <h3><a href="Movieticket">Movie ticket</a></h3>
             <div class="reviews-star float-left">
               
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="300">
             <a href="Kfc"><img src="public/img/Delivery.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Kfc">เดลิเวอรี่</a></h3>
+            <h3><a href="Kfc">Delivery</a></h3>
             <div class="reviews-star float-left">
              
             </div>
@@ -69,28 +69,28 @@
 
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
             <a href="Cashcard"><img src="public/img/momey.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Cashcard">บัตรเงินสด</a></h3>
+            <h3><a href="Cashcard">Cash card</a></h3>
             <div class="reviews-star float-left">
          
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="100">
             <a href="Barcode"><img src="public/img/QRcode.png" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Barcode">คิวอาร์โค้ด</a></h3>
+            <h3><a href="Barcode">QR code</a></h3>
             <div class="reviews-star float-left">
               
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="200">
             <a href="Onlineshopping"><img src="public/img/shop.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Onlineshopping">ช้อปออนไลน์</a></h3>
+            <h3><a href="Onlineshopping">Shopping online</a></h3>
             <div class="reviews-star float-left">
              
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="300">
             <a href="Profile"><img src="public/img/pro.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Profile">โปรไฟล์</a></h3>
+            <h3><a href="Profile">Profile</a></h3>
             <div class="reviews-star float-left">
              
             </div>
