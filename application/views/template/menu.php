@@ -1,16 +1,14 @@
 <header class="site-header">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-4 site-logo" data-aos="fade"><a href="home.php">YourAgent</a></div>
+          <div class="col-4 site-logo" data-aos="fade"><a href="home">FakPay</a></div>
           <div class="col-8">
-
 
             <div class="site-menu-toggle js-site-menu-toggle"  data-aos="fade">
               <span></span>
               <span></span>
               <span></span>
             </div>
-            <!-- END menu-toggle -->
 
             <div class="site-navbar js-site-navbar">
               <nav role="navigation">
@@ -25,8 +23,6 @@
                         <li><a href="login">Login</a></li>
                       </ul>
                     </div>
-                   
-                        
                       </div>
                     </div>
                   </div>
