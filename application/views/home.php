@@ -101,7 +101,7 @@
     </section>
     <!-- END section -->
   
-    <section class="section">
+    <!-- <section class="section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
@@ -145,6 +145,6 @@
 
         </div>
       </div>
-    </section>
+    </section> -->
   </body>
 </html>
