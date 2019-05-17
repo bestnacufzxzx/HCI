@@ -25,7 +25,7 @@
 							<div class="login100-form-bgbtn"></div>
 							<button onclick="checklogin()" type="insert" class="login100-form-btn"><a href="home">เข้าสู่ระบบ</button>
 						</div>
-						<div class="flex-col-c p-t-155">
+						<div class="flex-col-c p-t-90">
 						<a href="register" class="txt2">
 							Sign Up
 						</a>

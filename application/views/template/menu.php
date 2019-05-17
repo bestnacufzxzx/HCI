@@ -1,35 +1,60 @@
-<header class="site-header">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-4 site-logo" data-aos="fade"><a href="home">FakPay</a></div>
-          <div class="col-8">
+<style>
+  * {box-sizing: border-box;}
+body { 
+  margin: 0;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 10px 10px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+.header-right {
+  float: right;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+</style>
 
-            <div class="site-menu-toggle js-site-menu-toggle"  data-aos="fade">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
+<body>
 
-            <div class="site-navbar js-site-navbar">
-              <nav role="navigation">
-                <div class="container">
-                  <div class="row full-height align-items-center">
-                    <div class="col-md-6">
-                      <ul class="list-unstyled menu">
-                        <li class="active"><a href="home">Home</a></li>
-                        <li><a href="about">About</a></li>
-                        <li><a href="blog">Blog</a></li>
-                        <li><a href="contact">Contact</a></li>
-                        <li><a href="login">Login</a></li>
-                      </ul>
-                    </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+  <div class="header">
+    <a href="home" class="logo">FakPay</a>
+    <div class="header-right">
+      <a class="active" href="home">Home</a>
+      <a href="login">Login</a>
+      <a href="register">Register</a>
+    </div>
+  </div>
+</body>

@@ -8,6 +8,7 @@ class Login extends CI_Controller {
 	{
 		$this->load->view('template/headerlogin');
 		$this->load->view('template/headregister');
+		$this->load->view('template/menu');
 		$this->load->view('home_menu/login/login');
 		$this->load->view('home_menu/login/script');
 		$this->load->view('template/footerlogin');
