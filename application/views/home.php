@@ -45,8 +45,8 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="100">
-            <a href="Fillthegame"><img src="public/img/garena.png" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Fillthegame">Game</a></h3>
+            <a href="https://termgame.com/new/app"><img src="public/img/garena.png" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="https://termgame.com/new/app">Game</a></h3>
             <div class="reviews-star float-left">
              
             </div>
