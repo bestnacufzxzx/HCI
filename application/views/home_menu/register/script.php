@@ -1,10 +1,12 @@
 <script>
+
+    
 $("#insert").validate({
         rules: {
             name: {
                 required: true
             },
-            Telephone: {
+            telephone: {
                 required: true,
           },
           email: {
@@ -19,26 +21,24 @@ $("#insert").validate({
         },
         messages: {
             name: {
-                required: "Please Enter Name"
+                required: "กรุณากรอกชื่อ"
             },
-            Telephone: {
-                required: "Please Enter Telphone",
+            telephone: {
+                required: "กรุณากรอกเบอร์โทร",
             },
             email: {
-                required: "Please Enter Email",
+                required: "กรุณากรอกอีเมล์",
             },
             password: {
-                    required: "Please Enter Password",
+                    required: "กรุณากรอกรหัสผ่าน",
             },
             repassword: {
-                    required: "Please Enter Re Password",
+                    required: "กรุณากรอกรหัสผ่านอีกครั้ง",
             }
         },
     });
     $("#insert").submit(function(){
         login();
-        
-        
     })
     
     function login(){
@@ -61,7 +61,7 @@ $("#insert").validate({
                 if(data.repassword !="" && data2.password != "" && name.name !="" &&email.email !=""){
                     if(data.repassword == data2.password){
                         alert("ลงทะเบียนสำเร็จ  "+name.name)
-                        window.location.href = 'home';
+                        window.location.replace( href="login");
                     }else{
                         alert("ข้อมูลไม่ถูกต้อง!!")
                     }
@@ -69,4 +69,4 @@ $("#insert").validate({
                     
             }
     }
-</script>
+    </script>
