@@ -3,30 +3,50 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('public/img/bg-01.jpg');">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-                <span class="login100-form-title p-b-49">ลงทะเบียน</span>
+                <span class="login100-form-title p-b-49">Register</span>
                     <form id="insert">
-                        <div class="form-group">
-                            <label >ชื่อผู้ใช้</label> <i class="fas fa-user"></i>
-                            <input  type="text" class="form-control"   placeholder="ชื่อผู้ใช้" id="name" name="name">
+
+                        <div class="wrap-input100  mb-3"><i class="fas fa-user"></i>
+							<label class="label-input100">ชื่อผู้ใช้</label>
+							<input  class="input100" type="text" id="name" name="name"  placeholder="ชื่อผู้ใช้">
                         </div>
-                        <div class="form-group">
-                            <label>อีเมล</label> <i class="fas fa-envelope"></i>
-                            <input  type="email" class="form-control"   placeholder="อีเมล" id="email" name="email">
+                        
+                        <div class="wrap-input100  mb-3"><i class="fas fa-user"></i>
+							<label class="label-input100">อีเมล</label>
+							<input  class="input100" type="email" id="email" name="email"  placeholder="อีเมล">
                         </div>
-                        <div class="form-group">
-                            <label>รหัสผ่าน</label> <i class="fas fa-lock"></i>
-                            <input type="password" class="form-control"  placeholder="รหัสผ่าน" id="password" name="password">
+                        
+                        <div class="wrap-input100  mb-3"><i class="fas fa-user"></i>
+							<label class="label-input100">รหัสผ่าน</label>
+							<input  class="input100" type="password" id="password" name="password"  placeholder="รหัสผ่าน">
                         </div>
-                        <div class="form-group">
-                            <label>ยืนยันรหัสผ่าน</label> <i class="fas fa-lock"></i>
-                            <input type="password" class="form-control"  placeholder="ยืนยันรหัสผ่าน" id="repassword" name="repassword">
+                        
+                        <div class="wrap-input100  mb-3"><i class="fas fa-user"></i>
+							<label class="label-input100">ยืนยันรหัสผ่าน</label>
+							<input  class="input100" type="password" id="repassword" name="repassword"  placeholder="ยืนยันรหัสผ่าน">
                         </div>
-                        <div class="form-group">
-                            <label>เบอร์โทรศัพท์</label> <i class="fas fa-phone-square"></i>
-                            <input type="text" class="form-control"  placeholder="เบอร์โทรศัพท์" id="telephone" name="telephone">
+
+                        <div class="wrap-input100  mb-3"><i class="fas fa-user"></i>
+							<label class="label-input100">เบอร์โทรศัพท์</label>
+							<input  class="input100" type="tel" id="telephone" name="telephone"  placeholder="เบอร์โทรศัพท์">
                         </div>
-                            <button type="insert"  class="btn btn-primary"  style="float:left">ลงทะเบียน</button>
-                            <a href="home"  class="btn btn-danger" role="button" style="float:right">ยกเลิก</a>
+
+						<div class="container-login100-form-btn-s">
+						<div class="wrap-login100-form-btn-s">
+							<div class="login100-form-bgbtn-s"></div>
+							<button onclick="checklogin()" type="insert" class="login100-form-btn-s"> Register </button>
+                        </div>
+                        </div>
+                        <br>
+                        <div class="container-login100-form-btn-canceled">
+                        <div class="wrap-login100-form-btn-canceled">
+							<div class="login100-form-bgbtn-canceled"></div>
+							<a href="login" type="insert" class="login100-form-btn-canceled">Canceled </a>
+                        </div>
+                        </div>
+                        
+                            <!-- <button type="insert"  class="btn btn-primary"  style="float:left">ลงทะเบียน</button>
+                            <a href="home"  class="btn btn-danger" role="button" style="float:right">ยกเลิก</a> -->
                     </form>
             </div>
         </div>

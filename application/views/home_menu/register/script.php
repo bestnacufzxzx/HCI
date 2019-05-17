@@ -61,7 +61,7 @@ $("#insert").validate({
                 if(data.repassword !="" && data2.password != "" && name.name !="" &&email.email !=""){
                     if(data.repassword == data2.password){
                         alert("ลงทะเบียนสำเร็จ  "+name.name)
-                        window.location.replace( href="login");
+                        window.location.replace( href="home");
                     }else{
                         alert("ข้อมูลไม่ถูกต้อง!!")
                     }

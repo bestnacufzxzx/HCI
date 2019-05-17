@@ -3,7 +3,7 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('public/img/bg-01.jpg');">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-                <span class="login100-form-title p-b-49">ลงทะเบียน</span>
+                <span class="login100-form-title p-b-49">login</span>
                     <form id="insert">
 						<div class="wrap-input100  mb-3">
 							<label class="label-input100">ชื่อผู้ใช้</label><span class="error">*</span>
