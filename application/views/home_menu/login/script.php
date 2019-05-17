@@ -1,63 +1,38 @@
-(function($) {
-'use strict';
-/*=================================================================
-  [ Focus input ]*/
-    $('.input100').each(function(){
-        $(this).on('blur', function(){
-            if($(this).val().trim() != "") {
-                $(this).addClass('has-val');
+
+<script>
+	$("#insert").validate({
+        rules: {
+        username: {
+                required: true
+            },
+        password: {
+                required: true,
+          }
+        },
+        messages: {
+            username: {
+                required: "กรุณากรอกชื่อ"
+            },
+            password: {
+                required: "กรุณากรอกรหัสผ่าน",
             }
-            else {
-                $(this).removeClass('has-val');
-            }
-        })    
-    })
-
-/*==================================================================
-    [ Validate ]*/
-    var input = $('.validate-input .input100');
-
-    $('.validate-form').on('submit',function(){
-        var check = true;
-
-        for(var i=0; i<input.length; i++) {
-            if(validate(input[i]) == false){
-                showValidate(input[i]);
-                check=false;
-            }
-        }
-
-        return check;
+        },
     });
+    $("#insert").submit(function(){
+        login();
+	})
+	
+    function checklogin() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    if(username == "group3" && password == "1234"){
+		alert("ล็อกอินสำเร็จ  ยินดีต้อนรับคุณ "+username)
+        window.location.replace( href="home");
 
-    $('.validate-form .input100').each(function(){
-        $(this).focus(function(){
-           hideValidate(this);
-        });
-    });
-
-    function validate (input) {
-        if($(input).attr('type') == 'email' || $(input).attr('name') == 'email') {
-            if($(input).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
-                return false;
-            }
-        }
-        else {
-            if($(input).val().trim() == ''){
-                return false;
-            }
-        }
     }
-    function showValidate(input) {
-        var thisAlert = $(input).parent();
-
-        $(thisAlert).addClass('alert-validate');
+    else{
+        alert("กรุณากรอกให้ถูกต้อง")
     }
-
-    function hideValidate(input) {
-        var thisAlert = $(input).parent();
-
-        $(thisAlert).removeClass('alert-validate');
-    }
-    
-})(jQuery);
+ 
+}
+</script>
