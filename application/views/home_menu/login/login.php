@@ -6,18 +6,18 @@
                 <span class="login100-form-title p-b-49">Login</span>
                     <form id="insert">
 						<div class="wrap-input100  mb-3">
-							<label class="label-input100">Username :*</label><span class="error"></span>
+							<label class="label-input100">Username :</label><span class="error"></span><font color="red"> * </font>
 							<input  class="input100" type="text" id="username" name="username"  placeholder="FakPay">
 						</div>
 						<div class="wrap-input100  mb-2">
-							<label class="label-input100">Password :*</label><span class="error"></span>
+							<label class="label-input100">Password :</label><span class="error"></span><font color="red"> * </font>
 							<input  class="input100" type="password" id="password" name="password"  placeholder="1234abcd">
 						</div>
 
 						<div class="text-right p-t-8 p-b-31">
-						<a href="#">
+						<!-- <a href="#">
 							Forgot password?
-						</a>
+						</a> -->
 						</div>
 
 						<div class="container-login100-form-btn-log">

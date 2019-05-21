@@ -40,7 +40,7 @@
         </div> -->
 
         <div class="card">
-        <div class="card-header" align="center">Money balance จำนวนเงินคงเหลือ : 10,000 ฿
+        <div class="card-header" align="center">Money balance จำนวนเงินคงเหลือ : 10,000 ฿<br><br>
           <!-- <button type="button" onclick="alert('Hello world!')">create QR and Barcode</button> -->
           <div class="container">
             <!-- <h2>Modal Example</h2> -->

@@ -1,3 +1,4 @@
+
 <body style="background-color:#e6e6fa;" >
     <section class="site-hero overlay">
 
@@ -48,28 +49,28 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
             <a href="Mobilemoney"><img src="public/img/topup.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Mobilemoney">Top up</a></h3>
+            <h3><a href="Mobilemoney"><p style="font-size:22px;">Top up</p></a></h3>
             <div class="reviews-star float-left">
               Easy top-up
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="100">
             <a href="Cashcard"><img src="public/img/cashcard.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Cashcard">Cash card</a></h3>
+            <h3><a href="Cashcard"><p style="font-size:22px;">Cash card</p></a></h3>
             <div class="reviews-star float-left">  
               Prepaid Phone Cards
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="200">
             <a href="Barcode"><img src="public/img/qr.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Barcode">QR code</a></h3>
+            <h3><a href="Barcode"><p style="font-size:22px;">QR code</p></a></h3>
             <div class="reviews-star float-left">
               Easy pay with FakPay
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="300">
             <a href="https://termgame.com/new/app"><img src="public/img/grn_2.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="https://termgame.com/new/app">Game</a></h3>
+            <h3><a href="https://termgame.com/new/app"><p style="font-size:22px;">Game</p></a></h3>
             <div class="reviews-star float-left">
             Fill the game with FakPay
             </div>
@@ -78,28 +79,28 @@
 
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
             <a href="Movieticket"><img src="public/img/tk.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Movieticket">Movie ticket</a></h3>
+            <h3><a href="Movieticket"><p style="font-size:22px;">Movie ticket</p></a></h3>
             <div class="reviews-star float-left">
               Book cheap movie tickets
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="100">
           <a href="Kfc"><img src="public/img/dlvr.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Kfc">Delivery</a></h3>
+            <h3><a href="Kfc"><p style="font-size:22px;">Delivery</p></a></h3>
             <div class="reviews-star float-left">
             Easy life, Free shipping
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="200">
             <a href="Onlineshopping"><img src="public/img/shop.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Onlineshopping">Shopping online</a></h3>
+            <h3><a href="Onlineshopping"><p style="font-size:22px;">Shopping online</p></a></h3>
             <div class="reviews-star float-left">
              
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="300">
             <a href="Profile"><img src="public/img/pro.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Profile">Profile</a></h3>
+            <h3><a href="Profile"><p style="font-size:22px;">Profile</p></a></h3>
             <div class="reviews-star float-left">
              
             </div>

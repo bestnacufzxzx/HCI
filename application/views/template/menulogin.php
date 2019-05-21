@@ -2,7 +2,7 @@
   * {box-sizing: border-box;}
 body { 
   margin: 0;
-  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 .header {
   overflow: hidden;
@@ -23,14 +23,7 @@ body {
   font-size: 25px;
   font-weight: bold;
 }
-/* .header a:hover {
-  background-color: #ee82ee;
-  color: black;
-}
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-} */
+
 
 .header a:hover {
   background-color: #c71585;
@@ -62,7 +55,7 @@ body {
   <div class="header">
     <a href="home" class="logo">FakPay</a>
     <div class="header-right">
-      <a href="home">Home</a>
+      <a  href="home">Home</a>
       <a class="active" href="login">Login</a>
       <a href="register">Register</a>
     </div>
