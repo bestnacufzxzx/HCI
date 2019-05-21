@@ -45,7 +45,16 @@
           <div class="container">
             <!-- <h2>Modal Example</h2> -->
             <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">QR and Barcode</button>
+
+            <div class="container-login100-form-btn-bar">
+            <div class="wrap-login100-form-btn-bar">
+              <div class="login100-form-bgbtn-bar"></div>
+              <button type="button" class="login100-form-btn-bar" data-toggle="modal" data-target="#myModal">QR and Barcode</button>
+              <!-- <p style="color: white; font-size:16px; font-family: Poppins-Medium;"> -->
+            </div>
+            </div>
+
+            <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">QR and Barcode</button> -->
 
             <!-- Modal -->
             <div class="modal fade" id="myModal" role="dialog">
