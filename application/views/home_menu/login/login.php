@@ -5,11 +5,11 @@
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
                 <span class="login100-form-title p-b-49">Login</span>
                     <form id="insert">
-						<div class="wrap-input100  mb-3">
+						<div class="wrap-input100  mb-3"><i class="fas fa-user"></i>
 							<label class="label-input100">Username :</label><span class="error"></span><font color="red"> * </font>
 							<input  class="input100" type="text" id="username" name="username"  placeholder="FakPay">
 						</div>
-						<div class="wrap-input100  mb-2">
+						<div class="wrap-input100  mb-2"><i class="fas fa-unlock"></i>
 							<label class="label-input100">Password :</label><span class="error"></span><font color="red"> * </font>
 							<input  class="input100" type="password" id="password" name="password"  placeholder="1234abcd">
 						</div>
