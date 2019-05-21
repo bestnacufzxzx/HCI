@@ -7,28 +7,28 @@
                     <form id="insert">
 
                         <div class="wrap-input100  mb-3"><i class="fas fa-user"></i>
-							<label class="label-input100">ชื่อผู้ใช้</label>
-							<input  class="input100" type="text" id="name" name="name"  placeholder="ชื่อผู้ใช้">
+							<label class="label-input100">Username :*</label>
+							<input  class="input100" type="text" id="name" name="name"  placeholder="FakPay">
                         </div>
                         
                         <div class="wrap-input100  mb-3"><i class="fas fa-user"></i>
-							<label class="label-input100">อีเมล</label>
-							<input  class="input100" type="email" id="email" name="email"  placeholder="อีเมล">
+							<label class="label-input100">Email :*</label>
+							<input  class="input100" type="email" id="email" name="email"  placeholder="FakPay@gmail.com">
                         </div>
                         
                         <div class="wrap-input100  mb-3"><i class="fas fa-user"></i>
-							<label class="label-input100">รหัสผ่าน</label>
-							<input  class="input100" type="password" id="password" name="password"  placeholder="รหัสผ่าน">
+							<label class="label-input100">Password :*</label>
+							<input  class="input100" type="password" id="password" name="password"  placeholder="12345abcd">
                         </div>
                         
                         <div class="wrap-input100  mb-3"><i class="fas fa-user"></i>
-							<label class="label-input100">ยืนยันรหัสผ่าน</label>
-							<input  class="input100" type="password" id="repassword" name="repassword"  placeholder="ยืนยันรหัสผ่าน">
+							<label class="label-input100">Confirm Password :*</label>
+							<input  class="input100" type="password" id="repassword" name="repassword"  placeholder="12345abcd">
                         </div>
 
                         <div class="wrap-input100  mb-3"><i class="fas fa-user"></i>
-							<label class="label-input100">เบอร์โทรศัพท์</label>
-							<input  class="input100" type="tel" id="telephone" name="telephone"  placeholder="เบอร์โทรศัพท์">
+							<label class="label-input100">Telephone Number :*</label>
+							<input  class="input100" type="tel" id="telephone" name="telephone"  placeholder="0812345678">
                         </div>
 
 						<div class="container-login100-form-btn-s">

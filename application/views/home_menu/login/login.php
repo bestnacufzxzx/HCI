@@ -3,15 +3,15 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('public/img/bg-01.jpg');">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-                <span class="login100-form-title p-b-49">login</span>
+                <span class="login100-form-title p-b-49">Login</span>
                     <form id="insert">
 						<div class="wrap-input100  mb-3">
-							<label class="label-input100">ชื่อผู้ใช้</label><span class="error">*</span>
-							<input  class="input100" type="text" id="username" name="username"  placeholder="ชื่อผู้ใช้">
+							<label class="label-input100">Username :*</label><span class="error"></span>
+							<input  class="input100" type="text" id="username" name="username"  placeholder="FakPay">
 						</div>
 						<div class="wrap-input100  mb-2">
-							<label class="label-input100">รหัสผ่าน</label><span class="error">*</span>
-							<input  class="input100" type="password" id="password" name="password"  placeholder="รหัสผ่าน">
+							<label class="label-input100">Password :*</label><span class="error"></span>
+							<input  class="input100" type="password" id="password" name="password"  placeholder="1234abcd">
 						</div>
 
 						<div class="text-right p-t-8 p-b-31">
@@ -23,7 +23,7 @@
 						<div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
-							<button onclick="checklogin()" type="insert" class="login100-form-btn"><a href="home">เข้าสู่ระบบ</button>
+							<button onclick="checklogin()" type="insert" class="login100-form-btn"><a href="home">Log in</button>
 						</div>
 						<div class="flex-col-c p-t-90">
 						<a href="register" class="txt2">
