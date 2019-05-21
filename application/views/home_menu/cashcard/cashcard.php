@@ -7,7 +7,7 @@
     
     ?>
 
-    <section class="site-hero overlay page-inside" style="background-image: url(public/img/prop_single_img.jpg)">
+    <section class="site-hero overlay page-inside" style="background-image: url(public/img/cashcard_2.jpg)">
       <div class="container">
         <div class="row site-hero-inner align-items-center">
           <!-- <div class="col-md-7 text-left mr-auto" data-aos="fade-up">
@@ -50,7 +50,7 @@
                     <div class="row setup-content" id="step-1">
                         <div class="col-xs-12">
                             <div class="col-md-12 well text-center">
-                                <h1> Choose network </h1><br>
+                                <h4> Choose network </h4><br>
                                   <div class="container-fluid" align="center">
                                     <div class="col"  align="center" id="activate-step-2">
                                       <div class="col-sm-4">
@@ -75,7 +75,7 @@
                             <div class="col-md-12 well">
 
                                 <form id="needs-validation" novalidate>            
-                                    <h5 class="card-title" align="center">Choose amount</h5><br>
+                                    <h4 class="card-title" align="center">Choose amount</h4><br>
                                       <div class="container-fluid" align="center">
                                         <div class="col" >
                                           <div class="col-sm-3">
