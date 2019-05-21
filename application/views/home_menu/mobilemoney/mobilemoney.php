@@ -16,8 +16,8 @@
         <div class="row">  
             <div class="offset-md-2 col-md-8 offset-md-2">  
                 <div class="card">  
-                    <div class="card-header bg-primary text-white">  
-                        <h4 class="card-title text-uppercase">Employee Form</h4>  
+                <div class="card-header  bg-info text-white" >  
+                        <h4 class="card-title" align="center" >Top up</h4>  
                     </div>  
                     <div class="card-body">      
                         <div class="row form-group">
@@ -76,7 +76,7 @@
                                                   <h6>Please enter 10 digit mobile number.</h6>  
                                               </div>   
                                               </div>  
-                                              <button id="activate-step-3" class="btn btn-primary btn-sm">Activate Step 2</button>
+                                              <button id="activate-step-3" class="btn btn-primary btn-sm" >submit</button>
                                           </div>  
                                           <div class="col-sm-4 col-md-4 col-xs-12">  
                                           </div>  
