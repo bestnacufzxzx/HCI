@@ -20,11 +20,14 @@
 						</a>
 						</div>
 
-						<div class="container-login100-form-btn">
-						<div class="wrap-login100-form-btn">
-							<div class="login100-form-bgbtn"></div>
-							<button onclick="checklogin()" type="insert" class="login100-form-btn"><a href="home">Log in</button>
+						<div class="container-login100-form-btn-log">
+						<div class="wrap-login100-form-btn-log">
+							<div class="login100-form-bgbtn-log"></div>
+							<button onclick="checklogin()" type="insert" class="login100-form-btn-log"><a href="home">Log in</button>
+							<!-- <p style="color: white; font-size:16px; font-family: Poppins-Medium;"> -->
 						</div>
+						</div>
+						<br>
 						<div class="flex-col-c p-t-90">
 						<a href="register" class="txt2">
 							Sign Up
