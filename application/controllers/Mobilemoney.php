@@ -8,6 +8,7 @@ class Mobilemoney extends CI_Controller {
 		$this->load->view('template/menu');
 		$this->load->view('home_menu/mobilemoney/mobilemoney');
 		$this->load->view('home_menu/mobilemoney/script');
+		$this->load->view('template/cashcard');
 		$this->load->view('template/js');
     }
 }
