@@ -102,7 +102,7 @@
             <a href="https://th.traveligo.com/"><img src="public/img/hotel.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="https://th.traveligo.com/"><p style="font-size:22px;">TraveliGo</p></a></h3>
             <div class="reviews-star float-left">
-            Cheap Hotels, Flights, Tour , and Car Rental
+            Cheap Hotels, Flights and Car
             </div>
           </div>
 
