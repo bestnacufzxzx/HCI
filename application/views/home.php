@@ -92,17 +92,17 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="200">
-            <a href="Onlineshopping"><img src="public/img/shop.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Onlineshopping"><p style="font-size:22px;">Shopping online</p></a></h3>
+            <a href="Onlineshopping"><img src="public/img/cd.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="Onlineshopping"><p style="font-size:22px;">FakPay Card</p></a></h3>
             <div class="reviews-star float-left">
-             
+              Easy to carry
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="300">
-            <a href="Profile"><img src="public/img/pro.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Profile"><p style="font-size:22px;">Profile</p></a></h3>
+            <a href="https://th.traveligo.com/"><img src="public/img/hotel.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="https://th.traveligo.com/"><p style="font-size:22px;">TraveliGo</p></a></h3>
             <div class="reviews-star float-left">
-             
+            Cheap Hotels, Flights, Tour , and Car Rental
             </div>
           </div>
 
