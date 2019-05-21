@@ -1,7 +1,7 @@
-<footer class="section footer-section bg-primary">
+<footer class="section footer-section " style="background-color:#ba55d3;">
       <div class="container">
         <div class="row mb-4">
-          <div class="col-md-6 mb-6">
+          <div class="col-md-2 mb-2">
             <ul class="list-unstyled link">
               <li><a href="#">About Us</a></li>
               <li><a href="#">Terms &amp; Conditions</a></li>
@@ -10,7 +10,7 @@
              <li><a href="#">Rooms</a></li> -->
             </ul>
           </div>
-          <div class="col-md-6 mb-6">
+          <div class="col-md-2 mb-2">
             <ul class="list-unstyled link">
               <li><a href="#">Our Location</a></li>
               <li><a href="#">The Hosts</a></li>

@@ -1,4 +1,4 @@
-<body>    
+<body style="background-color:#fafafa;">    
 
     <?php $str = '12365421025635874';
     $shuffled = str_shuffle($str);

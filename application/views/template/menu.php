@@ -6,7 +6,7 @@ body {
 }
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #ba55d3;
   padding: 10px 10px;
 }
 .header a {
@@ -23,14 +23,24 @@ body {
   font-size: 25px;
   font-weight: bold;
 }
-.header a:hover {
-  background-color: #ddd;
+/* .header a:hover {
+  background-color: #ee82ee;
   color: black;
 }
 .header a.active {
   background-color: dodgerblue;
   color: white;
+} */
+
+.header a:hover {
+  background-color: #c71585;
+  color: black;
 }
+.header a.active {
+  background-color: #c71585;
+  color: white;
+}
+
 .header-right {
   float: right;
 }
