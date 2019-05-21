@@ -40,12 +40,12 @@
         </div> -->
 
         <div class="card">
-        <div class="card-header" align="center">Money balance จำนวนเงินคงเหลือ : 10,000 ฿<br><br>
+        <div class="card-header" align="center">Money balance : 10,000 ฿<br><br>
           <!-- <button type="button" onclick="alert('Hello world!')">create QR and Barcode</button> -->
           <div class="container">
             <!-- <h2>Modal Example</h2> -->
             <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">create QR and Barcode</button>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">QR and Barcode</button>
 
             <!-- Modal -->
             <div class="modal fade" id="myModal" role="dialog">
