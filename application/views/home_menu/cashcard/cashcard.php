@@ -28,100 +28,124 @@
                         <h4 class="card-title" align="center" >CashCard</h4>  
                     </div>  
                     <div class="card-body">  
-                        <form id="needs-validation" novalidate>
-                        <div class="row">  
-                                 <div class="col-sm-4 col-md-4 col-xs-12">  
-                                 </div>  
-                                <div class="col-sm-4 col-md-4 col-xs-12">  
-                                <h5 class="card-title" align="center" for="phonenumber" >Mobile Number</h5>
-                                    <!-- <label for="phonenumber">Mobile Number</label>   -->
-                                    <input type="tel" pattern="^\d{10}$" class="form-control" name="phonenumber" id="phonenumber" placeholder="+668123456789" aria-describedby="inputGroupPrepend" required>  
-                                    <div class="invalid-tooltip">  
-                                        <h6>Please enter 10 digit mobile number.</h6>  
-                                    </div>   
-                                    </div>  
-                                </div>  
-                                <div class="col-sm-4 col-md-4 col-xs-12">  
-                                   
-                                </div>  
-                            </div>    
-             
-                        <h5 class="card-title" align="center">Choose amount</h5><br>
-                          <div class="container-fluid" align="center">
-                            <div class="col" >
-                              <div class="col-sm-3">
-                              <button type="button" class="btn btn-default btn-lg">50</button>
-                              </div>
-                              
-                              <div class="col-sm-3">
-                              <button type="button" class="btn btn-default btn-lg">90</button>
-                              </div>
-                            
-                              <div class="col-sm-3">
-                              <button type="button" class="btn btn-default btn-lg">150</button>
-                              </div>
-                            
-                              <div class="col-sm-3">
-                              <button type="button" class="btn btn-default btn-lg">300</button>
-                              </div>
-                            </div>
-                            <br><br>
-                            <div class="col" > <br><br>
-                              <div class="col-sm-3">
-                              <button type="button" class="btn btn-default btn-lg">500</button>
-                              </div>
-                              
-                              <div class="col-sm-3">
-                              <button type="button" class="btn btn-default btn-lg">700</button>
-                              </div>
-                            
-                              <div class="col-sm-3">
-                              <button type="button" class="btn btn-default btn-lg">900</button>
-                              </div>
-                            
-                              <div class="col-sm-3">
-                              <button type="button" class="btn btn-default btn-lg">1000</button>
-                              </div>
-                            </div>
-                          </div>
 
-                            <br><br>
-                            
-      
-                            <div class="container-fluid" align="center">
-                              <!-- Trigger the modal with a button -->
-                          
-                                <!-- <div class="col-sm-5 col-md-5 col-xs-2">  
-                                  <div class="float-right">   -->
-                                      <!-- <button class="btn btn-danger rounded-0" type="submit">Cancel</button>   -->
-                                      <!-- <button class="btn btn-primary rounded-0" type="submit">Register</button>   -->
-                                      <!-- <button type="submit" class="btn btn-info btn-lg" onclick="checkcashcard()">Open Modal</button> -->
-                                      <button  type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"; >Card Number</button>
-                                      <!-- data-toggle="modal" data-target="#myModal"; -->
-                                  <!-- </div>  
-                                </div>   -->
-
-                              <br><br>
-                              <!-- Modal -->
-                              <div class="modal fade" id="myModal" role="dialog">
-                                <div class="modal-dialog">
-                                
-                                  <!-- Modal content-->
-                                  <div class="modal-content">
-                                    <div class="modal-body">
-                                      <p>Show 14 Card Number</p>
-                                      <?php echo substr($shuffled ,0,14); ?>
-                                    </div>
-                                    <div class="modal-footer">
-                                      <button type="button" class="btn btn-default" data-dismiss="modal" onclick='window.location.reload();' >Close</button>
-                                    </div>
+                      <div class="row form-group">
+                        <div class="col-xs-12">
+                            <ul class="nav nav-pills nav-justified thumbnail setup-panel">
+                                <li class="active"><a href="#step-1">
+                                    <h4 class="list-group-item-heading">Step 1</h4>
+                                    <p class="list-group-item-text">Choose network</p>
+                                </a></li>
+                                <li class="disabled"><a href="#step-2">
+                                    <h4 class="list-group-item-heading">Step 2</h4>
+                                    <p class="list-group-item-text">Choose amount</p>
+                                </a></li>
+                                <!-- <li class="disabled"><a href="#step-3">
+                                    <h4 class="list-group-item-heading">Step 3</h4>
+                                    <p class="list-group-item-text">Third step description</p>
+                                </a></li> -->
+                            </ul>
+                        </div>
+                  </div>
+                    <div class="row setup-content" id="step-1">
+                        <div class="col-xs-12">
+                            <div class="col-md-12 well text-center">
+                                <h1> Choose network </h1><br>
+                                  <div class="container-fluid" align="center">
+                                    <div class="col"  align="center" id="activate-step-2">
+                                      <div class="col-sm-4">
+                                      <button type="button" id="activate-step-2" name="ais" class="btn btn-default btn-lg">AIS </button>
+                                      </div>
+                                      
+                                      <div class="col-sm-4">
+                                      <button type="button" id="activate-step-2" name="dtac" class="btn btn-default btn-lg">DTAC </button>
+                                      </div>
                                     
-                                  </div>
-                      
-                                </div>
-                              </div>
+                                      <div class="col-sm-4">
+                                      <button type="button" id="activate-step-2" name="truemove" class="btn btn-default btn-lg">Truemove H</button>
+                                      </div>
+                                    </div>
+                                  </div><br><br>
+                                <!-- <button id="activate-step-2" class="btn btn-primary btn-lg">Activate Step 2</button> -->
                             </div>
-                        </form>  
+                        </div>
+                    </div>
+                    <div class="row setup-content" id="step-2">
+                        <div class="col-xs-12">
+                            <div class="col-md-12 well">
+
+                                <form id="needs-validation" novalidate>            
+                                    <h5 class="card-title" align="center">Choose amount</h5><br>
+                                      <div class="container-fluid" align="center">
+                                        <div class="col" >
+                                          <div class="col-sm-3">
+                                          <button type="button" class="btn btn-default btn-lg">50</button>
+                                          </div>
+                                          
+                                          <div class="col-sm-3">
+                                          <button type="button" class="btn btn-default btn-lg">90</button>
+                                          </div>
+                                        
+                                          <div class="col-sm-3">
+                                          <button type="button" class="btn btn-default btn-lg">150</button>
+                                          </div>
+                                        
+                                          <div class="col-sm-3">
+                                          <button type="button" class="btn btn-default btn-lg">300</button>
+                                          </div>
+                                        </div>
+                                        <br><br>
+                                        <div class="col" > <br><br>
+                                          <div class="col-sm-3">
+                                          <button type="button" class="btn btn-default btn-lg">500</button>
+                                          </div>
+                                          
+                                          <div class="col-sm-3">
+                                          <button type="button" class="btn btn-default btn-lg">700</button>
+                                          </div>
+                                        
+                                          <div class="col-sm-3">
+                                          <button type="button" class="btn btn-default btn-lg">900</button>
+                                          </div>
+                                        
+                                          <div class="col-sm-3">
+                                          <button type="button" class="btn btn-default btn-lg">1000</button>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                        <br><br>
+                                        
+                  
+                                        <div class="container-fluid" align="center">
+                                                  <button  type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"; >Card Number</button>
+                                          <br><br>
+                                          <!-- Modal -->
+                                          <div class="modal fade" id="myModal" role="dialog">
+                                            <div class="modal-dialog">
+                                            
+                                              <!-- Modal content-->
+                                              <div class="modal-content">
+                                                <div class="modal-body">
+                                                  <p>Show 14 Card Number</p>
+                                                  <?php echo substr($shuffled ,0,14); ?>
+                                                </div>
+                                                <div class="modal-footer">
+                                                  <button type="button" class="btn btn-default" data-dismiss="modal" onclick='window.location.reload();' >Close</button>
+                                                </div>
+                                                
+                                              </div>
+                                  
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </form>  
+
+                                <!-- <h1 class="text-center"> STEP 2</h1> -->
+                            </div>
+                        </div>
+                    </div>
+                     
                     </div>  
                 </div>  
             </div>  
