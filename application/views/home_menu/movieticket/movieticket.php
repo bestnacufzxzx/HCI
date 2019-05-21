@@ -1,4 +1,4 @@
-<body>    
+<body  style="background-color:#e6e6fa;">    
     <section class="site-hero overlay page-inside" style="background-image: url(public/img/res-cinema-01.jpg)">
       <div class="container">
         <div class="row site-hero-inner align-items-center">

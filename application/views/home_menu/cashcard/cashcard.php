@@ -1,4 +1,4 @@
-<body style="background-color:#fafafa;">    
+<body style="background-color:#e6e6fa;">    
 
     <?php $str = '12365421025635874';
     $shuffled = str_shuffle($str);
@@ -24,13 +24,29 @@
         <div class="row">  
             <div class="offset-md-2 col-md-8 offset-md-2">  
                 <div class="card">  
-                    <div class="card-header bg-primary text-white">  
-                        <h4 class="card-title text-uppercase">Employee Form</h4>  
+                    <div class="card-header  bg-info text-white" >  
+                        <h4 class="card-title" align="center" >CashCard</h4>  
                     </div>  
                     <div class="card-body">  
-                        <form id="needs-validation" novalidate>  
+                        <form id="needs-validation" novalidate>
+                        <div class="row">  
+                                 <div class="col-sm-4 col-md-4 col-xs-12">  
+                                 </div>  
+                                <div class="col-sm-4 col-md-4 col-xs-12">  
+                                <h5 class="card-title" align="center" for="phonenumber" >Mobile Number</h5>
+                                    <!-- <label for="phonenumber">Mobile Number</label>   -->
+                                    <input type="tel" pattern="^\d{10}$" class="form-control" name="phonenumber" id="phonenumber" placeholder="+668123456789" aria-describedby="inputGroupPrepend" required>  
+                                    <div class="invalid-tooltip">  
+                                        <h6>Please enter 10 digit mobile number.</h6>  
+                                    </div>   
+                                    </div>  
+                                </div>  
+                                <div class="col-sm-4 col-md-4 col-xs-12">  
+                                   
+                                </div>  
+                            </div>    
              
-                        <h4 class="card-title text-uppercase" align="center">Choose amount</h4><br><br> 
+                        <h5 class="card-title" align="center">Choose amount</h5><br>
                           <div class="container-fluid" align="center">
                             <div class="col" >
                               <div class="col-sm-3">
@@ -70,23 +86,9 @@
                           </div>
 
                             <br><br>
-                            <div class="row">  
-                                 <div class="col-sm-4 col-md-4 col-xs-12">  
-                                 </div>  
-                                <div class="col-sm-4 col-md-4 col-xs-12">  
-                                    <label for="phonenumber">Mobile Number</label>  
-                                    <input type="tel" pattern="^\d{10}$" class="form-control" name="phonenumber" id="phonenumber" placeholder="Mobile Number" aria-describedby="inputGroupPrepend" required>  
-                                    <div class="invalid-tooltip">  
-                                        <h6>Please enter 10 digit mobile number.</h6>  
-                                    </div>   
-                                    </div>  
-                                </div>  
-                                <div class="col-sm-4 col-md-4 col-xs-12">  
-                                   
-                                </div>  
-                            </div>  
+                            
       
-                            <div class="container" align="center">
+                            <div class="container-fluid" align="center">
                               <!-- Trigger the modal with a button -->
                           
                                 <!-- <div class="col-sm-5 col-md-5 col-xs-2">  
@@ -94,12 +96,12 @@
                                       <!-- <button class="btn btn-danger rounded-0" type="submit">Cancel</button>   -->
                                       <!-- <button class="btn btn-primary rounded-0" type="submit">Register</button>   -->
                                       <!-- <button type="submit" class="btn btn-info btn-lg" onclick="checkcashcard()">Open Modal</button> -->
-                                      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"; >Open Modal</button>
+                                      <button  type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"; >Card Number</button>
                                       <!-- data-toggle="modal" data-target="#myModal"; -->
                                   <!-- </div>  
                                 </div>   -->
 
-
+                              <br><br>
                               <!-- Modal -->
                               <div class="modal fade" id="myModal" role="dialog">
                                 <div class="modal-dialog">
@@ -107,12 +109,13 @@
                                   <!-- Modal content-->
                                   <div class="modal-content">
                                     <div class="modal-body">
-                                      <p>แสดงเลข 14 หลัก.</p>
+                                      <p>Show 14 Card Number</p>
                                       <?php echo substr($shuffled ,0,14); ?>
                                     </div>
                                     <div class="modal-footer">
                                       <button type="button" class="btn btn-default" data-dismiss="modal" onclick='window.location.reload();' >Close</button>
                                     </div>
+                                    
                                   </div>
                       
                                 </div>
