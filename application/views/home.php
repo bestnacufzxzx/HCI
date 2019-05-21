@@ -14,6 +14,15 @@
             <div class="author-image mb-3">
               <section class="site-hero overlay" style="background-image: url(public/img/ez.jpg)">
             </div>
+ 
+            <div class="author-image mb-3">
+              <section class="site-hero overlay" style="background-image: url(public/img/john.jpg)">
+            </div>
+
+            <div class="author-image mb-3">
+              <section class="site-hero overlay" style="background-image: url(public/img/e_cover.jpg)">
+            </div>
+
           </div>
 
       <!-- <div class="container">
@@ -38,47 +47,47 @@
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
-            <a href="Mobilemoney"><img src="public/img/phone.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <a href="Mobilemoney"><img src="public/img/topup.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="Mobilemoney">Top up</a></h3>
             <div class="reviews-star float-left">
-        
+              Easy top-up
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="100">
-            <a href="Cashcard"><img src="public/img/momey.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <a href="Cashcard"><img src="public/img/cashcard.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="Cashcard">Cash card</a></h3>
-            <div class="reviews-star float-left">
-             
+            <div class="reviews-star float-left">  
+              Prepaid Phone Cards
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="200">
-            <a href="Barcode"><img src="public/img/QRcode.png" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <a href="Barcode"><img src="public/img/qr.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="Barcode">QR code</a></h3>
             <div class="reviews-star float-left">
-              
+              Easy pay with FakPay
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="300">
-            <a href="https://termgame.com/new/app"><img src="public/img/garena.png" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <a href="https://termgame.com/new/app"><img src="public/img/grn_2.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="https://termgame.com/new/app">Game</a></h3>
             <div class="reviews-star float-left">
-             
+            Fill the game with FakPay
             </div>
           </div>
 
 
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
-            <a href="Movieticket"><img src="public/img/Movie.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <a href="Movieticket"><img src="public/img/tk.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="Movieticket">Movie ticket</a></h3>
             <div class="reviews-star float-left">
-         
+              Book cheap movie tickets
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="100">
-          <a href="Kfc"><img src="public/img/Delivery.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+          <a href="Kfc"><img src="public/img/dlvr.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="Kfc">Delivery</a></h3>
             <div class="reviews-star float-left">
-              
+            Easy life, Free shipping
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="200">
