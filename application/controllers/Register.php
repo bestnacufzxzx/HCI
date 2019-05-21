@@ -8,6 +8,7 @@ class Register extends CI_Controller {
 	{
 		$this->load->view('template/headerlogin');
 		$this->load->view('template/headregister');
+		$this->load->view('template/meunregister');
 		$this->load->view('home_menu/register/register');
 		$this->load->view('home_menu/register/script');
 		$this->load->view('template/footerlogin');
