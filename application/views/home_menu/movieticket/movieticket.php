@@ -15,31 +15,25 @@
 
     <section class="section visit-section" id="next-section">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-6 mb-4 visit mb-md-0">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="heading" data-aos="fade-up">Popular Deliverys</h2>
+            </div>
+          </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-4 visit mb-md-0" data-aos="fade-up">
           <a href="Mobilemoney"><img src="public/img/sf.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="Mobilemoney">SF</a></h3>
           </div>
-          <div class="col-md-6 mb-4 visit mb-md-0">
+          
+          <div class="col-md-6 mb-4 visit mb-md-0" data-aos="fade-up">
           <a href="Mobilemoney"><img src="public/img/1200x630wa.png" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="Mobilemoney">Major</a></h3>
           </div>
         </div>
-        <!-- <div class="row mt-5">
-          
-          <div class="col-lg-8 ml-auto">
-            <h3 class="mb-3">$1,650</h3>
-            <p class="mb-5">2724 20th Ave N, Houston TX</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe omnis beatae libero quisquam ex nostrum repellendus, consectetur suscipit. Velit iusto ducimus sit quos officiis nesciunt libero, officia, aliquam doloremque totam.</p>
-            <p>Ratione natus expedita iusto, minus cumque vitae quo culpa reiciendis aspernatur aliquam veritatis magnam non, dicta nemo inventore, nisi quas dolores. Modi laboriosam sunt aliquid rem, deserunt quis? Porro, hic.</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe omnis beatae libero quisquam ex nostrum repellendus, consectetur suscipit. Velit iusto ducimus sit quos officiis nesciunt libero, officia, aliquam doloremque totam.</p>
-            <p>Ratione natus expedita iusto, minus cumque vitae quo culpa reiciendis aspernatur aliquam veritatis magnam non, dicta nemo inventore, nisi quas dolores. Modi laboriosam sunt aliquid rem, deserunt quis? Porro, hic.</p>
-
-            <p><a href="contact.html" class="btn btn-primary">Contact Me</a></p>
-            
-          </div>
-        </div> -->
+      </div>
       </div>
     </section>
 
