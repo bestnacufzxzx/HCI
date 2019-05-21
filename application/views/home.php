@@ -4,15 +4,15 @@
 
           <div class="js-carousel-1 owl-carousel">
             <div class="author-image mb-3">
-              <section class="site-hero overlay" style="background-image: url(public/img/hero_1.jpg)">
+              <section class="site-hero overlay" style="background-image: url(public/img/fp.jpg)">
             </div>
 
             <div class="author-image mb-3">
-              <section class="site-hero overlay" style="background-image: url(public/img/hero_1.jpg)">
+              <section class="site-hero overlay" style="background-image: url(public/img/KFC_P.jpg)">
             </div>
 
             <div class="author-image mb-3">
-              <section class="site-hero overlay" style="background-image: url(public/img/hero_1.jpg)">
+              <section class="site-hero overlay" style="background-image: url(public/img/ez.jpg)">
             </div>
           </div>
 
