@@ -21,7 +21,7 @@
             <h3><a href="Mobilemoney">SF</a></h3>
           </div>
           <div class="col-md-6 mb-4 visit mb-md-0">
-          <a href="Mobilemoney"><img src="public/img/mj2.png" alt="Image placeholder" class="img-fluid rounded"> </a>
+          <a href="Mobilemoney"><img src="public/img/1200x630wa.png" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="Mobilemoney">Major</a></h3>
           </div>
         </div>
