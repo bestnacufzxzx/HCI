@@ -11,10 +11,10 @@
         },
         messages: {
             username: {
-                required: "กรุณากรอกชื่อ"
+                required: "Please enter the name."
             },
             password: {
-                required: "กรุณากรอกรหัสผ่าน",
+                required: "Please enter the password.",
             }
         },
     });
@@ -26,12 +26,12 @@
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
     if(username == "group3" && password == "1234"){
-		alert("ล็อกอินสำเร็จ  ยินดีต้อนรับคุณ "+username)
+		alert("Successful login  Welcome "+username)
         window.location.replace( href="home");
 
     }
     else{
-        alert("กรุณากรอกให้ถูกต้อง")
+        alert("Please fill in the correct information.")
     }
  
 }
