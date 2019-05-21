@@ -1,4 +1,4 @@
-<body style="background-color:#ffe4e1;" >
+<body style="background-color:#e6e6fa;" >
     <section class="site-hero overlay">
 
 
