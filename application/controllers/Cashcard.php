@@ -9,6 +9,7 @@ class Cashcard extends CI_Controller {
 		$this->load->view('template/header');
 		$this->load->view('template/menu');
 		$this->load->view('home_menu/cashcard/cashcard');
+		$this->load->view('home_menu/cashcard/script');
 		$this->load->view('template/js');
 		// $this->load->view('template/footer');
 	}

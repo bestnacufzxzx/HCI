@@ -45,22 +45,22 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://termgame.com/new/app"><img src="public/img/garena.png" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="https://termgame.com/new/app">Game</a></h3>
+            <a href="Cashcard"><img src="public/img/momey.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="Cashcard">Cash card</a></h3>
             <div class="reviews-star float-left">
              
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="200">
-            <a href="Movieticket"><img src="public/img/Movie.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Movieticket">Movie ticket</a></h3>
+            <a href="Barcode"><img src="public/img/QRcode.png" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="Barcode">QR code</a></h3>
             <div class="reviews-star float-left">
               
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="300">
-            <a href="Kfc"><img src="public/img/Delivery.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Kfc">Delivery</a></h3>
+            <a href="https://termgame.com/new/app"><img src="public/img/garena.png" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="https://termgame.com/new/app">Game</a></h3>
             <div class="reviews-star float-left">
              
             </div>
@@ -68,15 +68,15 @@
 
 
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
-            <a href="Cashcard"><img src="public/img/momey.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Cashcard">Cash card</a></h3>
+            <a href="Movieticket"><img src="public/img/Movie.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="Movieticket">Movie ticket</a></h3>
             <div class="reviews-star float-left">
          
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="100">
-            <a href="Barcode"><img src="public/img/QRcode.png" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Barcode">QR code</a></h3>
+          <a href="Kfc"><img src="public/img/Delivery.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="Kfc">Delivery</a></h3>
             <div class="reviews-star float-left">
               
             </div>
