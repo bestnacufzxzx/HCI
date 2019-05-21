@@ -41,7 +41,7 @@
                         <div class="container-login100-form-btn-canceled">
                         <div class="wrap-login100-form-btn-canceled">
 							<div class="login100-form-bgbtn-canceled"></div>
-							<button href="login" type="insert" class="login100-form-btn-canceled">Canceled </button>
+							<a href="login"class="login100-form-btn-canceled"><p style="color: white; font-size:16px; font-family: Poppins-Medium;">Canceled</p></a>
                         </div>
                         </div>
                         
