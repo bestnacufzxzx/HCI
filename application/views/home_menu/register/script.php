@@ -28,19 +28,19 @@ $("#insert").validate({
         },
         messages: {
             name: {
-                required: "กรุณากรอกชื่อ"
+                required: "Please enter the name."
             },
             telephone: {
-                required: "กรุณากรอกเบอร์โทร",
+                required: "Please enter the telephone.",
             },
             email: {
-                required: "กรุณากรอกอีเมล์",
+                required: "Please enter the email.",
             },
             password: {
-                    required: "กรุณากรอกรหัสผ่าน",
+                    required: "Please enter the password.",
             },
             repassword: {
-                    required: "กรุณากรอกรหัสผ่านอีกครั้ง",
+                    required: "Please enter the repassword.",
             }
         },
     });
@@ -66,14 +66,14 @@ $("#insert").validate({
            
             if(isValid){
                 if(data.repassword !="" && data2.password != "" && name.name !="" &&email.email !=""){
-                    if(data.repassword == data2.password){
-                        alert("ลงทะเบียนสำเร็จ  "+name.name)
+                        alert("Successful Register  Welcome "+name.name)
                         window.location.replace( href="home");
                     }else{
-                        alert("ข้อมูลไม่ถูกต้อง!!")
+                        alert("Please fill in the correct information.")
                     }
-                }
-                    
+                }  
             }
-    }
+
     </script>
+
+
