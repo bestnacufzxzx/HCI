@@ -1,3 +1,10 @@
+<style>
+p.{
+    color: "white"; 
+    font-size:"16px";
+    font-family: "Poppins-Medium";
+}
+</style>
 <script>
 
     
