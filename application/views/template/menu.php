@@ -16,7 +16,7 @@ body {
   padding: 12px;
   text-decoration: none;
   font-size: 18px; 
-  line-height: 25px;
+  line-height: 35px;
   border-radius: 4px;
 }
 .header a.logo {
@@ -48,6 +48,11 @@ body {
     float: none;
   }
 }
+
+
+
+
+
 </style>
 
 <body>
@@ -55,7 +60,7 @@ body {
   <div class="header">
     <!-- <a href="home" class="logo">FakPay</a> -->
     <!-- <img src="smiley.gif" alt="Smiley face" width="50" height="42"> -->
-    <a href="home"><img src="public/logo/linkedin_banner_image_1.png" alt="Smiley face" width="80" height="150"  class="img-fluid rounded"> </a>
+    <a href="home"><img src="public/logo/linkedin_banner_image_1.png" width="80" height="150"  class="img-fluid rounded"> </a>
     <div class="header-right">
       <a class="active" href="home">Home</a>
       <a  href="login">Login</a>
