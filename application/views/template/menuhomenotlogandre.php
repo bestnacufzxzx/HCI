@@ -60,9 +60,10 @@ body {
   <div class="header">
     <!-- <a href="home" class="logo">FakPay</a> -->
     <!-- <img src="smiley.gif" alt="Smiley face" width="50" height="42"> -->
-    <a href="home"><img src="public/logo/linkedin_banner_image_1.png" width="80" height="150"  class="img-fluid rounded"> </a>
+    <a href="Homenotlogandre"><img src="public/logo/linkedin_banner_image_1.png" width="80" height="150"  class="img-fluid rounded"> </a>
     <div class="header-right">
-      <a class="active" href="home">Home</a>
+      <a class="active" href="Homenotlogandre">Home</a>
+      <a href="login">Logout</a>
     </div>
   </div>
 </body>

@@ -8,7 +8,7 @@ class Onlineshopping extends CI_Controller {
 	{
 		$this->load->view('template/buttonbarcode');
 		$this->load->view('template/header');
-		$this->load->view('template/menu');
+		$this->load->view('template/menuhomenotlogandre');
 		$this->load->view('home_menu/onlineshopping/onlineshopping');
 		$this->load->view('template/js');
 		// $this->load->view('template/footer');
