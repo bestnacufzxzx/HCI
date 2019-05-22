@@ -25,10 +25,10 @@
                   <label class="label-input100">Password :</label><span class="error"></span><font color="red"> * </font>
                   <input  class="input100" type="password" id="password" name="password"  placeholder="1234abcd">
                 </div><br>
-                <div class="container-login100-form-btn-bar">
-                  <div class="wrap-login100-form-btn-bar">
-                    <div class="login100-form-bgbtn-bar"></div>
-                    <button type="button" class="login100-form-btn-bar" data-toggle="modal" data-target="#myModal">Card</button>
+                <div class="container-login100-form-btn-onl">
+                  <div class="wrap-login100-form-btn-onl">
+                    <div class="login100-form-bgbtn-onl"></div>
+                    <button type="button" class="login100-form-btn-onl" data-toggle="modal" data-target="#myModal">Card</button>
                   </div>
                 </div>
                 <br>
