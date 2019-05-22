@@ -8,19 +8,10 @@ class Barcode extends CI_Controller {
 	{
 		$this->load->view('template/buttonbarcode');
 		$this->load->view('template/header');
-		$this->load->view('template/menu');
-		$this->load->view('home_menu/barcode/barcode');
-		$this->load->view('template/js');
-		// $this->load->view('template/footer');
-	}
-
-	public function Barcode2()
-	{
-		$this->load->view('template/buttonbarcode');
-		$this->load->view('template/header');
 		$this->load->view('template/menuhomenotlogandre');
 		$this->load->view('home_menu/barcode/barcode');
 		$this->load->view('template/js');
 		// $this->load->view('template/footer');
 	}
+
 }
