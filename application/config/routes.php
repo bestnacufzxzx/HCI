@@ -67,5 +67,4 @@ $route['movieticket'] = 'movieticket';
 $route['fillthegame'] = 'fillthegame';
 $route['cashcard'] = 'cashcard';
 $route['kfc'] = 'kfc';
-$route['homenotlogin'] = 'home/homenotlogin';
-$route['homenotlogout'] = 'home/homenotlogout';
+$route['Homenotlogandre'] = 'Homenotlogandre';
