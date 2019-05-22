@@ -25,7 +25,12 @@
                   <label class="label-input100">Password :</label><span class="error"></span><font color="red"> * </font>
                   <input  class="input100" type="password" id="password" name="password"  placeholder="1234abcd">
                 </div><br>
-                <button onclick="checklogin()" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">create QR and Barcode</button>
+                <div class="container-login100-form-btn-bar">
+                  <div class="wrap-login100-form-btn-bar">
+                    <div class="login100-form-bgbtn-bar"></div>
+                    <button type="button" class="login100-form-btn-bar" data-toggle="modal" data-target="#myModal">Card</button>
+                  </div>
+                </div>
                 </form>
               </div>
             </div>
@@ -41,7 +46,7 @@
                     <div class="modal-header">
                     </div>
                     <div class="modal-body">
-                      <p>Your card</p>
+                      <p>Show Card</p>
                       <img src="public/img//fp_card.png" alt="Image" class="img-fluid rounded img-shadow">
                     <br> <br> <br>
                       <!-- <div class="card">
