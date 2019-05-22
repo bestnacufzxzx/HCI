@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
 <body class= "bg">
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('public/img/bg-01.jpg');">
@@ -33,7 +33,7 @@
 						<div class="container-login100-form-btn-s">
 						<div class="wrap-login100-form-btn-s">
 							<div class="login100-form-bgbtn-s"></div>
-							<button onclick="checklogin()" type="insert" class="login100-form-btn-s"> Register </button>
+							<button  class="login100-form-btn-s"><a href="home"> Register </button>
                         </div>
                         </div>
                         <br>

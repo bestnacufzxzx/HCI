@@ -6,6 +6,7 @@ class Onlineshopping extends CI_Controller {
 
 	public function index()
 	{
+		$this->load->view('template/headerlogin');
 		$this->load->view('template/buttonbarcode');
 		$this->load->view('template/header');
 		$this->load->view('template/menuhomenotlogandre');

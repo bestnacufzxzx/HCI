@@ -1,12 +1,4 @@
-<style>
-p.{
-    color: "white"; 
-    font-size:"16px";
-    font-family: "Poppins-Medium";
-}
-</style>
 <script>
-
     
 $("#insert").validate({
         rules: {
@@ -28,7 +20,7 @@ $("#insert").validate({
         },
         messages: {
             name: {
-                required: "Please enter the name."
+                required: "Please enter the name.",
             },
             telephone: {
                 required: "Please enter the telephone.",
@@ -67,7 +59,7 @@ $("#insert").validate({
             if(isValid){
                 if(data.repassword !="" && data2.password != "" && name.name !="" &&email.email !=""){
                         alert("Successful Register  Welcome "+name.name)
-                        window.location.replace( href="home");
+                        window.location.replace(href="home");
                     }else{
                         alert("Please fill in the correct information.")
                     }
