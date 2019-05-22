@@ -124,7 +124,7 @@
                                           </div>
                                         </div><br><br>
                                         <div class="container-fluid" align="center">
-                                                  <button  type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"; >Card Number</button>
+                                                  <button  type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"; >Confirm</button>
                                           <br><br>
                                           <!-- Modal -->
                                           <div class="modal fade" id="myModal" role="dialog">
@@ -133,11 +133,13 @@
                                               <!-- Modal content-->
                                               <div class="modal-content">
                                                 <div class="modal-body">
-                                                  <p>Show 14 Card Number</p>
-                                                  <?php echo substr($shuffled ,0,14); ?>
+                                                  <p> Confirm Top Up </p>
+                                                  <div class="card">
+                                                    <p>Top up successfully</p>
+                                                  </div>
                                                 </div>
                                                 <div class="modal-footer">
-                                                  <button type="button" class="btn btn-default" data-dismiss="modal" onclick='window.location.reload();' >Close</button>
+                                                  <button type="button" class="btn btn-danger" data-dismiss="modal" onclick='window.location.reload();' >Close</button>
                                                 </div>
                                               </div>
                                             </div>
