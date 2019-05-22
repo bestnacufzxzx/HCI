@@ -31,6 +31,7 @@
                     <button type="button" class="login100-form-btn-bar" data-toggle="modal" data-target="#myModal">Card</button>
                   </div>
                 </div>
+                <br>
                 </form>
               </div>
             </div>
