@@ -17,19 +17,19 @@
       <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="heading" data-aos="fade-up">Popular Deliverys</h2>
+              <h2 class="heading" data-aos="fade-up">Popular Cinema</h2>
             </div>
           </div>
 
         <div class="row">
           <div class="col-md-6 mb-4 visit mb-md-0" data-aos="fade-up">
-          <a href="Mobilemoney"><img src="public/img/sf.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Mobilemoney">SF</a></h3>
+          <a href="https://www.sfcinemacity.com/?utm_campaign=aow&utm_source=sem&utm_term=%2B%E0%B8%88%E0%B8%AD%E0%B8%87%20%2Bsf&url=https%3A%2F%2Fwww.sfcinemacity.com%2F&gclid=CjwKCAjw5pPnBRBJEiwAULZKvginV9Z9-y0z5BiT2B3fZ5twXzIeRYm088rk20fgxXxzgrvuIJpvAxoCTTcQAvD_BwE"><img src="public/img/sf.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="https://www.sfcinemacity.com/?utm_campaign=aow&utm_source=sem&utm_term=%2B%E0%B8%88%E0%B8%AD%E0%B8%87%20%2Bsf&url=https%3A%2F%2Fwww.sfcinemacity.com%2F&gclid=CjwKCAjw5pPnBRBJEiwAULZKvginV9Z9-y0z5BiT2B3fZ5twXzIeRYm088rk20fgxXxzgrvuIJpvAxoCTTcQAvD_BwE">SF</a></h3>
           </div>
           
           <div class="col-md-6 mb-4 visit mb-md-0" data-aos="fade-up">
-          <a href="Mobilemoney"><img src="public/img/1200x630wa.png" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="Mobilemoney">Major</a></h3>
+          <a href="http://www.majorcineplex.com/th/main"><img src="public/img/1200x630wa.png" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="http://www.majorcineplex.com/th/main">Major</a></h3>
           </div>
         </div>
 
