@@ -41,12 +41,12 @@
                     <div class="modal-header">
                     </div>
                     <div class="modal-body">
-                      <p>10,000 ฿</p>
-                      <img src="public/img/PageQR/meny10000.png" alt="Image" class="img-fluid rounded img-shadow">
+                      <p>Your card</p>
+                      <img src="public/img//fp_card.png" alt="Image" class="img-fluid rounded img-shadow">
                     <br> <br> <br>
-                      <div class="card">
+                      <!-- <div class="card">
                       <img src="public/img/PageQR/barcode.png" alt="Image" class="img-fluid rounded img-shadow">
-                      </div>
+                      </div> -->
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
