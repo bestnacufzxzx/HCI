@@ -33,7 +33,7 @@
 						<div class="container-login100-form-btn-s">
 						<div class="wrap-login100-form-btn-s">
 							<div class="login100-form-bgbtn-s"></div>
-							<button  class="login100-form-btn-s"><a href="home"> Register </button>
+							<button  class="login100-form-btn-s"><a href="home"><p style="color: white; font-size:16px; font-family: Poppins-Medium;"> Register </button>
                         </div>
                         </div>
                         <br>
